@@ -1,10 +1,19 @@
 import Navbar from "./Navbar";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Pending from "./Pending";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <div>
+          <Routes>
+            <Route path="/" element={<Pending />} />
+          </Routes>
+        </div>
+      </div>
+    </Router>
   );
 }
 
