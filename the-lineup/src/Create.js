@@ -9,7 +9,7 @@ const Create = () => {
   const navigate = useNavigate();
 
   const handleSubmit = (e) => {
-    e.preventDefaut();
+    e.preventDefault();
     const task = { title, body, deadline };
 
     setIsPending(true);
