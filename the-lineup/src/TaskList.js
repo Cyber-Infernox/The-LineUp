@@ -7,10 +7,12 @@ const TaskList = ({ tasks, title }) => {
       <div className="ml-8">
         {tasks.map((task) => (
           <div className="p-2 pl-1" key={task.id}>
+            {/* <Link to={}> */}
             <div className="hover:shadow border-black p-3">
               <h2 className="font-bold text-lg pb-1">{task.title}</h2>
               <p>Deadline: {task.deadline}</p>
             </div>
+            {/* </Link> */}
           </div>
         ))}
       </div>
