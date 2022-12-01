@@ -27,7 +27,7 @@ const Create = () => {
   return (
     <div className="mx-96 px-32 py-12">
       <div className="px-8 py-4 pt-2">
-        <h2 className="text-2xl font-bold pb-6">Add a new Task</h2>
+        <h2 className="text-2xl font-bold pb-6 text-center">Add a new Task</h2>
         <form className="flex flex-col" onSubmit={handleSubmit}>
           <label className="pb-2 pl-10 text-lg font-bold">Task title:</label>
           <input
