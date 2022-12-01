@@ -6,11 +6,12 @@ const Create = () => {
   const [body, setBody] = useState();
   const [deadline, setDeadline] = useState();
   const [isPending, setIsPending] = useState(false);
+  const Checked = false;
   const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const task = { title, body, deadline };
+    const task = { title, body, deadline, Checked };
 
     setIsPending(true);
 
