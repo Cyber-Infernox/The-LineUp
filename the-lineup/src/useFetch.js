@@ -35,7 +35,6 @@ const useFetch = (url) => {
         });
     }, 2000);
 
-    // setTimeout(() => {
     fetch(url, { signal: abortCont.signal })
       .then((res) => {
         if (!res.ok) {
@@ -56,7 +55,6 @@ const useFetch = (url) => {
           setError(err.message);
         }
       });
-    // }, 3000000);
 
     return () => abortCont.abort();
   }, [url]);
