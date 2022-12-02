@@ -41,6 +41,13 @@
       "deadline": "2022-12-11",
       "Checked": true,
       "id": 9
+    },
+    {
+      "title": "Create a To-Do list",
+      "body": "You have to create a To-Do list. \nTo-Do list contains the list of the tasks that the user has to do or wants to do before the deadline. After doing a task, they can mark them as completed.\n\nBasic Features:\nAn input field for the date (that will be the deadline of the task added). \nPending and completed tasks should be distinguishable.\nThe user can delete the task. (by clicking on the delete icon)\nThe top of the page shall show a quote that will change after every refresh. (You may use any API for this, for example:- Link) \n\nAdvanced features:\nSort the task according to the deadline or date when the user added the task. \nAdd image functionality in addition to the name of the task.\n\nIMPORTANT POINTS:\nYou must complete the task by using ReactJS and Tailwind CSS.\nThe code should be well-commented and properly structured.\nIt’s an individual task.\nUse React Hooks wherever possible and avoid using Class components.\nExtra points for creativity and design.\nThe project/task must be on pushed on Github. Try hosting the website on Netlify as well.\nPlagiarism in code would lead to consequences.\nThe deadline to complete the task is 2nd December 2022 11:59 PM. Strictly adhere to the deadline.",
+      "deadline": "2022-12-07",
+      "Checked": false,
+      "id": 10
     }
   ]
 }

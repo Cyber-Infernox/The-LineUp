@@ -59,7 +59,9 @@ const TaskDetails = () => {
               <h2 className="text-2xl mb-2">{task.title}</h2>
               <p className="pt-2">Submit by {task.deadline}</p>
             </div>
-            <div className="pl-12 pt-6 pb-6 bg-gray-300">{task.body}</div>
+            <div className="pl-12 pt-6 pb-6 bg-gray-300 pr-12 text-cente">
+              {task.body}
+            </div>
           </div>
           <div className="flex items-center bg-gray-300 pb-4 rounded-b-xl">
             {!task.Checked && (

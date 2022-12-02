@@ -22,6 +22,7 @@ const Pending = () => {
         <h2 className="mb-2 font-Calli text-xl font-semibold">{quote}</h2>
         <small className="ml-96 text-lg font-Nerk">--- {author}</small>
       </div>
+      <hr className="mx-96" />
       {tasks && (
         <TaskList
           tasks={tasks.sort(dateComparison)}

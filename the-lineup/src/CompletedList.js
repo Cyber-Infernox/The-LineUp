@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const CompletedList = ({ tasks, title }) => {
   return (
-    <div className="flex-col mx-96 mt-4">
+    <div className="flex-col mx-96 mt-3">
       <div className="pb-2 pt-2 font-bold text-2xl bg-black text-white rounded-t-xl pl-4">
         <h2>{title}</h2>
       </div>
