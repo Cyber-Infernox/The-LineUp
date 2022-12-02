@@ -28,8 +28,13 @@ const Create = () => {
   return (
     <div className="mx-96 px-32 py-12">
       <div className="px-8 py-4 pt-2">
-        <h2 className="text-2xl font-bold pb-6 text-center">Add a new Task</h2>
-        <form className="flex flex-col" onSubmit={handleSubmit}>
+        <h2 className="text-2xl font-bold pb-3 pt-3 rounded-t-xl text-center bg-black text-white">
+          Add a new Task
+        </h2>
+        <form
+          className="flex flex-col bg-gray-300 pt-4 pb-5 rounded-b-xl"
+          onSubmit={handleSubmit}
+        >
           <label className="pb-2 pl-10 text-lg font-bold">Task title:</label>
           <input
             className="mb-3 border rounded-lg mx-10 p-2 pl-3"
@@ -57,7 +62,7 @@ const Create = () => {
 
           <div className="flex justify-center mt-2">
             {!isPending && (
-              <button className="bg-blue-500 text-white hover:text-gray-500 px-3 py-2 border border-black rounded-xl">
+              <button className="bg-black text-white hover:text-gray-500 px-3 py-2 border border-black rounded-xl">
                 Add Task
               </button>
             )}

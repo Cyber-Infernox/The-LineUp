@@ -49,23 +49,23 @@ const TaskDetails = () => {
   };
 
   return (
-    <div className="pl-1 mx-96 mt-16">
+    <div className="pl-1 mx-96 mt-11">
       {isPending && <div>Loading...</div>}
       {error && <div>{error}</div>}
       {task && (
         <article className="pb-2">
           <div>
-            <div className="font-bold">
+            <div className="font-bold bg-black text-white px-4 pt-2 pb-3 rounded-t-xl">
               <h2 className="text-2xl mb-2">{task.title}</h2>
-              <p className="mb-4">Submit by {task.deadline}</p>
+              <p className="pt-2">Submit by {task.deadline}</p>
             </div>
-            <div className="pl-12 pt-2 pb-6">{task.body}</div>
+            <div className="pl-12 pt-6 pb-6 bg-gray-300">{task.body}</div>
           </div>
-          <div className="flex items-center">
+          <div className="flex items-center bg-gray-300 pb-4 rounded-b-xl">
             {!task.Checked && (
               <button
                 onClick={updateData}
-                className="bg-blue-500 ml-1 hover:text-gray-500 text-white px-2 py-1 mr-8 rounded-lg"
+                className="bg-black ml-6 hover:text-gray-500 text-white px-2 py-1 mr-6 rounded-lg"
               >
                 Completed
               </button>
@@ -73,13 +73,13 @@ const TaskDetails = () => {
             {task.Checked && (
               <button
                 onClick={updateBackData}
-                className="bg-blue-500 ml-1 hover:text-gray-500 text-white px-2 py-1 mr-8 rounded-lg"
+                className="bg-black ml-6 hover:text-gray-500 text-white px-2 py-1 mr-6 rounded-lg"
               >
                 Pending
               </button>
             )}
             <button
-              className="bg-blue-500 ml-1 hover:text-gray-500 text-white py-1 px-2 rounded-lg"
+              className="bg-black ml-1 hover:text-gray-500 text-white py-1 px-2 rounded-lg"
               onClick={handleClick}
             >
               Delete
