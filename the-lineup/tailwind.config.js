@@ -3,6 +3,10 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {},
+    fontFamily: {
+      Calli: ["Calligraffitti", "cursive"],
+      Nerk: ["Nerko One", "cursive"],
+    },
   },
   plugins: [],
 };

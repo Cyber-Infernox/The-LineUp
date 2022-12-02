@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const TaskList = ({ tasks, title }) => {
   return (
-    <div className="flex-col mx-96 mt-16">
+    <div className="flex-col mx-96 mt-6">
       <div className="pl-1 pb-4 font-bold text-2xl">
         <h2>{title}</h2>
       </div>
