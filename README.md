@@ -28,6 +28,6 @@ In college there are a lot of tasks to take care of. To ensure proper completion
 ## How to run this file locally on your system?
 
 * Fork and clone the repo in your system.
-* run "npm install" in the project folder terminal to install all dependencies- npm install.
-* run "npx json-server --watch data/db.json --port 8000" to start the db,json file on port 8000.
+* run "npm install" in the project folder terminal to install all dependencies.
+* run "npx json-server --watch data/db.json --port 8000" to start the db.json file on port 8000.
 * run "npm-run-start" to start the react app.
