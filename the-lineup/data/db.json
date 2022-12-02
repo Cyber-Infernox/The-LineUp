@@ -1,53 +1,60 @@
 {
   "tasks": [
     {
-      "title": "My First Task",
-      "body": "Eat chocolates",
+      "title": "Learning to talk",
+      "body": "In this game, your child has to help inventor Daisy teach her robot Kroink to talk. To do this, your child sits in front of a laptop and sees different animal pictures. Robot Kroink tells different stories about the animals but he can’t quite manage to say everything in one sentence. Your child has to help Kroink by pressing a button so that Kroink says the next part of the sentence. For example, you child first hears “the lion”, presses the button and hears “is digging”, presses the button again, hears “a hole”, etc.. This is how Kroink learns how to use full sentences. To be sure that she understands everything, Daisy sometimes asks your child a question about what Kroink just said. This task helps us to discover how your child understands sentences. We can deduce this by calculating how long it takes your child to press the button at certain points in the sentence.",
+      "deadline": "2022-12-05",
+      "Checked": true,
+      "id": 1
+    },
+    {
+      "title": "Nemo",
+      "body": "This game allows us to see how good your child is at ignoring irrelevant information. Your child sees a picture of the fish Nemo on the laptop. The idea is that your child feeds Nemo. To do this, your child needs to press two fish buttons on the keyboard: one on the left and one on the right. When Nemo is swimming towards the left, your child has to press the button on the left, and when Nemo is swimming towards the right, your child has to press on the button on the right. This should happen as quickly as possible. At times there are other fish swimming next to Nemo, sometimes in the same direction, sometimes in the other direction. In this latter case, your child needs to ignore the direction the other fish are swimming in. Previous research has shown that bilingual children are sometimes better than monolingual children at doing this.",
+      "deadline": "2022-12-07",
+      "Checked": true,
+      "id": 2
+    },
+    {
+      "title": "Language proficiency",
+      "body": "It is important for us to know how proficient your child is in both languages. We can find this out in various ways. For example, by using a vocabulary task: your child sees four pictures on a laptop and hears a word. Your child has to then point at the picture referred to by the word. Another example of such a task is a sentence repetition task. In this task, your child listens to a number of sentences which he or she has to repeat as precisely as possible. We will of course also ask you about your child’s proficiency when completing the questionnaire.",
       "deadline": "2022-12-09",
+      "Checked": true,
+      "id": 3
+    },
+    {
+      "title": "Create a to-do list",
+      "body": "You have to create a To-Do list. \nTo-Do list contains the list of the tasks that the user has to do or wants to do before the deadline. After doing a task, they can mark them as completed.\n\nBasic Features:\nAn input field for the date (that will be the deadline of the task added). \nPending and completed tasks should be distinguishable.\nThe user can delete the task. (by clicking on the delete icon)\nThe top of the page shall show a quote that will change after every refresh. (You may use any API for this, for example:- Link) \n\nAdvanced features:\nSort the task according to the deadline or date when the user added the task. \nAdd image functionality in addition to the name of the task.\n\nIMPORTANT POINTS:\nYou must complete the task by using ReactJS and Tailwind CSS.\nThe code should be well-commented and properly structured.\nIt’s an individual task.\nUse React Hooks wherever possible and avoid using Class components.\nExtra points for creativity and design.\nThe project/task must be on pushed on Github. Try hosting the website on Netlify as well.\nPlagiarism in code would lead to consequences.",
+      "deadline": "2022-12-02",
       "Checked": true,
       "id": 4
     },
     {
-      "title": "My Second Task",
-      "body": "Eat pumpkin.",
-      "deadline": "2022-12-16",
-      "Checked": true,
+      "title": "Scientific research",
+      "body": "After exercising, the human body is depleted of hydration and electrolytes from sweating. \n\nThe person then needs to decide how best to rehydrate the body and replenish the lost electrolytes. \n\nNot all beverages are equally beneficial after exercise. The coach must decide what drink to offer volleyball players during a game or practice. \n\nIn this experiment, we will investigate the electrolyte content found in standard sports drink compared to what is found in plain coconut water.",
+      "deadline": "2022-12-13",
+      "Checked": false,
       "id": 5
     },
     {
-      "title": "Hello",
-      "body": "How are you?",
-      "deadline": "2022-12-16",
+      "title": "Business objectives",
+      "body": "Remote workers across the company should be able to communicate with one another seamlessly and effortlessly, without getting bogged down in unnecessary or irrelevant messages. \n\nRight now, messages tend to get lost or cluttered through multiple email strings. This results not only in lost productivity, but also multiple problems in miscommunication. \n\nI propose that all employees sign up for Slack and use it for the majority of in-company communication. Conversations can be easily searched and organized by channel. Only more formal communication, like official announcements, should be sent over email.",
+      "deadline": "2022-12-15",
       "Checked": false,
       "id": 6
     },
     {
-      "title": "hello",
-      "body": "hullo",
-      "deadline": "2022-12-09",
+      "title": "Engineering",
+      "body": "The manufacturing and assembly process for Product X is as efficient as possible.\n\nCurrently, certain parts need to be transported from one assembly line to the next and installed by hand.\n\nThe incremental loss in efficiency means that Company Y has not been meeting its production goals this year. \n\nTo reduce the need for manual transport of parts, conveyor belts and mechanical robot arms should be installed between assembly lines. This way, workers can stay at their respective stations rather than having to walk back and forth across the assembly room floor.",
+      "deadline": "2022-12-17",
       "Checked": false,
       "id": 7
     },
     {
-      "title": "hola",
-      "body": "hola",
-      "deadline": "2022-12-14",
-      "Checked": true,
-      "id": 8
-    },
-    {
-      "title": "WOW",
-      "body": "Woww",
-      "deadline": "2022-12-11",
-      "Checked": true,
-      "id": 9
-    },
-    {
-      "title": "Create a To-Do list",
-      "body": "You have to create a To-Do list. \nTo-Do list contains the list of the tasks that the user has to do or wants to do before the deadline. After doing a task, they can mark them as completed.\n\nBasic Features:\nAn input field for the date (that will be the deadline of the task added). \nPending and completed tasks should be distinguishable.\nThe user can delete the task. (by clicking on the delete icon)\nThe top of the page shall show a quote that will change after every refresh. (You may use any API for this, for example:- Link) \n\nAdvanced features:\nSort the task according to the deadline or date when the user added the task. \nAdd image functionality in addition to the name of the task.\n\nIMPORTANT POINTS:\nYou must complete the task by using ReactJS and Tailwind CSS.\nThe code should be well-commented and properly structured.\nIt’s an individual task.\nUse React Hooks wherever possible and avoid using Class components.\nExtra points for creativity and design.\nThe project/task must be on pushed on Github. Try hosting the website on Netlify as well.\nPlagiarism in code would lead to consequences.\nThe deadline to complete the task is 2nd December 2022 11:59 PM. Strictly adhere to the deadline.",
-      "deadline": "2022-12-07",
+      "title": "Healthcare issue",
+      "body": "Townsville General Hospital operates 24 hours a day, 7 days a week. As such, patient needs must be addressed all around the clock. For the overnight shift, there are currently no cardiology technologists scheduled, which can create issues for emergency staff.\n\nSome patients wait for four hours or more for a medical laboratory assistant to administer an electrocardiogram (ECG), a task better suited for a cardiology technologist to perform and interpret. This results in poorer patient care and worse health outcomes.\n\nThe hospital should always have a cardiology technologist available, even if they are only on call for the overnight shift.",
+      "deadline": "2022-12-19",
       "Checked": false,
-      "id": 10
+      "id": 8
     }
   ]
 }
