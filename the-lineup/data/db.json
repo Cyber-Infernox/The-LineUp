@@ -11,7 +11,7 @@
       "title": "My Second Task",
       "body": "Eat pumpkin.",
       "deadline": "2022-12-16",
-      "Checked": false,
+      "Checked": true,
       "id": 5
     },
     {
@@ -20,6 +20,27 @@
       "deadline": "2022-12-16",
       "Checked": false,
       "id": 6
+    },
+    {
+      "title": "hello",
+      "body": "hullo",
+      "deadline": "2022-12-09",
+      "Checked": false,
+      "id": 7
+    },
+    {
+      "title": "hola",
+      "body": "hola",
+      "deadline": "2022-12-14",
+      "Checked": true,
+      "id": 8
+    },
+    {
+      "title": "WOW",
+      "body": "Woww",
+      "deadline": "2022-12-11",
+      "Checked": true,
+      "id": 9
     }
   ]
 }

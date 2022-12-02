@@ -4,6 +4,7 @@ import Pending from "./Pending";
 import Create from "./Create";
 import TaskDetails from "./TaskDetails";
 import Completed from "./Completed";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/tasks/:id" element={<TaskDetails />} />
           </Routes>
         </div>
+        <Footer />
       </div>
     </Router>
   );
