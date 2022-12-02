@@ -4,15 +4,22 @@
       "title": "Hello",
       "body": "Welcome",
       "deadline": "2022-12-16",
-      "Checked": false,
+      "Checked": true,
       "id": 1
     },
     {
       "title": "Hola",
       "body": "Wola",
       "deadline": "2022-12-15",
-      "Checked": true,
+      "Checked": false,
       "id": 2
+    },
+    {
+      "title": "Woohoo",
+      "body": "Hallo",
+      "deadline": "2022-12-14",
+      "Checked": false,
+      "id": 3
     }
   ]
 }

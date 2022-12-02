@@ -1,9 +1,6 @@
 import { Link } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
 
 const TaskList = ({ tasks, title }) => {
-  const navigate = useNavigate();
-
   return (
     <div className="flex-col mx-96 mt-16">
       <div className="pl-1 pb-4 font-bold text-2xl">
