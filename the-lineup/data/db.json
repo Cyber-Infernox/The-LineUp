@@ -1,25 +1,18 @@
 {
   "tasks": [
     {
-      "title": "My first task",
-      "body": "Watching doraemon",
-      "deadline": "29th November, 2078",
+      "title": "Hello",
+      "body": "Welcome",
+      "deadline": "2022-12-16",
       "Checked": false,
       "id": 1
     },
     {
-      "title": "My second task",
-      "body": "Eating lollipop",
-      "deadline": "29th November, 2089",
-      "Checked": false,
-      "id": 2
-    },
-    {
-      "title": "Hello",
-      "body": "hi",
-      "deadline": "2022-12-08",
+      "title": "Hola",
+      "body": "Wola",
+      "deadline": "2022-12-15",
       "Checked": true,
-      "id": 3
+      "id": 2
     }
   ]
 }
