@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="">
-      <nav className="flex justify-between mx-96 mt-4 mb-3 bg-black rounded-t-xl py-3 px-4">
+      <nav className="flex justify-between sm:mx-0 xl:mx-96 xl:mt-4 mb-3 bg-black xl:rounded-t-xl py-3 px-4">
         <Link to={"/"}>
           <h1 className="text-2xl hover:text-gray-200 text-gray-400 pt-1">
             <span className="text-white">The</span> LineUp__
@@ -22,7 +22,7 @@ const Navbar = () => {
           </li>
         </ul>
       </nav>
-      <hr className="mx-96" />
+      <hr className="sm:mx-20 xl:mx-96" />
     </div>
   );
 };

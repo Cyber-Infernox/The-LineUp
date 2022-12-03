@@ -49,7 +49,7 @@ const TaskDetails = () => {
   };
 
   return (
-    <div className="pl-1 mx-96 mt-11">
+    <div className="pl-1 sm:mx-20 xl:mx-96 mt-11 sm:mt-8 sm:mb-8">
       {isPending && <div>Loading...</div>}
       {error && <div>{error}</div>}
       {task && (

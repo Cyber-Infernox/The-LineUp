@@ -18,11 +18,11 @@ const Pending = () => {
     <div>
       {error && <div>{error}</div>}
       {isPending && <div>Loading...</div>}
-      <div className="mx-96 text-center text-lg mt-4 p-4 flex flex-col justify-center place-items-center">
+      <div className="xl:mx-96 sm:mx-0 text-center text-lg mt-4 p-4 flex flex-col justify-center place-items-center">
         <h2 className="mb-2 font-Calli text-xl font-semibold">{quote}</h2>
-        <small className="ml-96 text-lg font-Nerk">--- {author}</small>
+        <small className="text-center text-lg font-Nerk">--- {author}</small>
       </div>
-      <hr className="mx-96" />
+      <hr className="sm:mx-20 xl:mx-96" />
       {tasks && (
         <TaskList
           tasks={tasks.sort(dateComparison)}

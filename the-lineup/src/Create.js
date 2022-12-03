@@ -26,8 +26,8 @@ const Create = () => {
   };
 
   return (
-    <div className="mx-96 px-32 py-12">
-      <div className="px-8 py-4 pt-2">
+    <div className="sm:mx-0 xl:mx-96 px-32 pb-12 pt-10">
+      <div className="px-4 py-4 pt-2">
         <h2 className="text-2xl font-bold pb-3 pt-3 rounded-t-xl text-center bg-black text-white">
           Add a new Task
         </h2>

@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 
 const CompletedList = ({ tasks, title }) => {
   return (
-    <div className="flex-col mx-96 mt-3">
-      <div className="pb-2 pt-2 font-bold text-2xl bg-black text-white rounded-t-xl pl-4">
+    <div className="flex-col sm:mx-0 xl:mx-96 mt-3">
+      <div className="pb-2 pt-2 font-bold text-2xl bg-black text-white pl-4">
         <h2>{title}</h2>
       </div>
-      <div className="p-2 pl-8 bg-gray-300 rounded-b-xl">
+      <div className="p-2 pl-8 bg-gray-300">
         {tasks.map(
           (task) =>
             task.Checked && (
